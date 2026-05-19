@@ -1,7 +1,3 @@
-import PyInstaller
-
-PyInstaller --onefile quiz.py 
-
 print("Seja Bem-Vindo ao Quiz sobre Tecnologia e Jogos!")
 answer_user = input("Quer começar? (S/N): ").strip().lower()
 
